@@ -18,12 +18,9 @@ To set up this website locally, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/vision-language-research/website.git
+   git clone https://github.com/Kroszborg/VLR.git
    ```
-2. Navigate to the project directory:
-   ```
-   cd website
-   ```
+2. Navigate to the project directory
 3. Install dependencies (if applicable):
    ```
    npm install
