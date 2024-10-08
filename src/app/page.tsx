@@ -54,23 +54,8 @@ export default function Home() {
         transition={{ duration: 0.5 }}
       >
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Vision Language Research</h1>
+          <h1 className="text-2xl font-bold">Vision Language Research Group</h1>
           <nav className="flex items-center space-x-4">
-            <Link href="#who-we-are" className="hover:underline">
-              Who We Are
-            </Link>
-            <Link href="#teams" className="hover:underline">
-              Teams
-            </Link>
-            <Link href="#eligibility" className="hover:underline">
-              Eligibility
-            </Link>
-            <Link href="#objectives" className="hover:underline">
-              Objectives
-            </Link>
-            <Link href="#contact" className="hover:underline">
-              Contact
-            </Link>
             <ModeToggle />
           </nav>
         </div>
