@@ -109,13 +109,13 @@ export default function Home() {
             </motion.div>
             <motion.div variants={fadeIn}>
               <Card>
-                <CardContent>
-                  <div className="relative w-full h-48 mb-4">
+                <CardContent className="flex flex-col items-center">
+                  <div className="w-full h-48 mb-4 relative">
                     <Image
-                      src="/placeholder.svg?height=192&width=384"
+                      src="/sandeepsir.jpg"
                       alt="Dr. Sandeep Chaurasia"
-                      fill
-                      objectFit="cover"
+                      layout="fill"
+                      objectFit="contain"
                       className="rounded-t-lg"
                     />
                   </div>
@@ -125,13 +125,13 @@ export default function Home() {
             </motion.div>
             <motion.div variants={fadeIn}>
               <Card>
-                <CardContent>
-                  <div className="relative w-full h-48 mb-4">
+                <CardContent className="flex flex-col items-center">
+                  <div className="w-full h-48 mb-4 relative">
                     <Image
-                      src="/placeholder.svg?height=192&width=384"
+                      src="/ribrata.jpg"
                       alt="Ritabrata Chakraborty"
-                      fill
-                      objectFit="cover"
+                      layout="fill"
+                      objectFit="contain"
                       className="rounded-t-lg"
                     />
                   </div>
@@ -142,6 +142,8 @@ export default function Home() {
           </motion.div>
         </AnimatedSection>
 
+        {/* Rest of the sections remain unchanged */}
+        
         <AnimatedSection id="teams" className="space-y-8">
           <h2 className="text-3xl font-bold text-center">Teams</h2>
           <motion.div className="grid md:grid-cols-3 gap-8" variants={staggerChildren}>

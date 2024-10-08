@@ -8,6 +8,16 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "VLR Group: Vision Language Research",
   description: "Advancing the field of vision and language research",
+  icons: {
+    icon: [
+      { url: '/vlricon.ico' },
+      { url: '/vlricon.ico', sizes: '192x192', type: 'image/png' },
+      { url: '/vlricon.ico', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/vlricon.ico' },
+    ],
+  },
 }
 
 export default function RootLayout({
